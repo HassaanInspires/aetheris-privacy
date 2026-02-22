@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Aetheris</title>
+    <style>
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            line-height: 1.8;
+            color: #1e293b;
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 40px 24px 80px;
+            background: #faf5ff;
+        }
+        h1 { font-size: 2rem; font-weight: 700; margin-bottom: 8px; color: #581c87; }
+        .subtitle { color: #64748b; font-size: 0.95rem; margin-bottom: 32px; }
+        h2 { font-size: 1.25rem; font-weight: 600; color: #7c3aed; margin: 28px 0 12px; }
+        p, li { font-size: 0.95rem; color: #334155; margin-bottom: 12px; }
+        ul { padding-left: 24px; }
+        li { margin-bottom: 8px; }
+        .highlight {
+            background: rgba(139, 92, 246, 0.08);
+            border-left: 3px solid #8b5cf6;
+            padding: 12px 16px;
+            border-radius: 0 8px 8px 0;
+            margin: 16px 0;
+        }
+        a { color: #7c3aed; }
+        .footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid #e2e8f0; font-size: 0.85rem; color: #94a3b8; }
+    </style>
+</head>
+<body>
+    <h1>Privacy Policy</h1>
+    <p class="subtitle">Aetheris - The Living Dashboard &middot; Last updated: February 2026</p>
+
+    <div class="highlight">
+        <strong>Summary:</strong> Aetheris does NOT collect, transmit, or share any personal data. All your data stays on your device, always.
+    </div>
+
+    <h2>1. What Data We Access</h2>
+    <p>Aetheris requests the following Chrome permissions to provide its features:</p>
+    <ul>
+        <li><strong>storage</strong> &mdash; To save your settings, tasks, notes, and Pomodoro progress locally on your device using Chrome's built-in storage API. This data never leaves your browser.</li>
+        <li><strong>topSites</strong> &mdash; To display your most-visited websites in the Speed Dial widget. This data is read-only, never stored externally, and never transmitted anywhere.</li>
+        <li><strong>notifications</strong> &mdash; To alert you when a Pomodoro focus session or break ends. Notifications are generated locally and do not involve any external servers.</li>
+    </ul>
+
+    <h2>2. What Data We Store</h2>
+    <p>All data is stored <strong>locally on your device</strong> using Chrome's <code>chrome.storage.local</code> API:</p>
+    <ul>
+        <li>Your display name (if you choose to set one)</li>
+        <li>Extension settings (theme, colors, time format, widget positions)</li>
+        <li>Your task/todo list</li>
+        <li>Your quick notes text</li>
+        <li>Pomodoro timer session count and state</li>
+    </ul>
+
+    <div class="highlight">
+        We do <strong>not</strong> store any browsing history, passwords, cookies, or personally identifiable information beyond what you explicitly enter (like your display name).
+    </div>
+
+    <h2>3. What Data We Collect</h2>
+    <p><strong>None.</strong> Aetheris has zero analytics, zero tracking, zero telemetry, and zero data collection. We do not use Google Analytics, Mixpanel, Sentry, or any third-party service. There are no external API calls except for loading website favicons (see section 5).</p>
+
+    <h2>4. What Data We Share</h2>
+    <p><strong>None.</strong> Your data is never transmitted, sold, shared, or made accessible to any third party. There is no server, no backend, no cloud. Everything is 100% local.</p>
+
+    <h2>5. External Requests</h2>
+    <p>Aetheris makes one type of external request:</p>
+    <ul>
+        <li><strong>Favicon loading:</strong> The Speed Dial widget loads website favicons (small icons) from <code>google.com/s2/favicons</code> to display icons for your top-visited sites. This is a standard Google service. No personal information is sent &mdash; only the website domain.</li>
+    </ul>
+
+    <h2>6. Data Security</h2>
+    <p>Since all data is stored locally in your browser using Chrome's built-in APIs, it benefits from Chrome's own security protections. You can clear all Aetheris data at any time by:</p>
+    <ul>
+        <li>Using the "Reset to Defaults" button in Aetheris settings</li>
+        <li>Uninstalling the extension (which removes all stored data)</li>
+        <li>Using the "Export Backup" feature to save your data, then clearing it</li>
+    </ul>
+
+    <h2>7. Children's Privacy</h2>
+    <p>Aetheris does not knowingly collect information from children under 13. The extension does not collect information from anyone of any age.</p>
+
+    <h2>8. Changes to This Policy</h2>
+    <p>If we ever update this privacy policy, we will update the "Last updated" date at the top. Since Aetheris collects no data, significant changes are unlikely.</p>
+
+    <h2>9. Contact</h2>
+    <p>If you have questions about this privacy policy, you can reach us at:</p>
+    <ul>
+        <li>Email: <strong>[YOUR_EMAIL_HERE]</strong></li>
+    </ul>
+
+    <div class="footer">
+        &copy; 2026 Aetheris. This privacy policy is effective as of February 2026.
+    </div>
+</body>
+</html>
